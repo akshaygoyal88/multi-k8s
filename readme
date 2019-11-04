@@ -5,3 +5,5 @@ kubectl get pv
 kubectl get pvc
 kubectl create secret generic pgpassword --from-literal PGPASSWORD=postgres_password
 kubectl get secret
+
+travis encrypt-file service-account.json -r akshaygoyal88/multi-k8s
