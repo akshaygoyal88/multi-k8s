@@ -1,0 +1,7 @@
+kubectl apply -f k8s/
+kubectl get storageclass
+kubectl describe storageclass
+kubectl get pv
+kubectl get pvc
+kubectl create secret generic pgpassword --from-literal PGPASSWORD=postgres_password
+kubectl get secret
