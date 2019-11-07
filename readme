@@ -13,3 +13,6 @@ kubectl create clusterrolebinding tiller-cluster-rule --clusterrole=cluster-admi
 helm init --service-account tiller --upgrade
 
 helm init --service-account tiller
+sudo chmod 666 /var/run/docker.sock
+
+skaffold dev
